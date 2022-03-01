@@ -7,7 +7,7 @@
 
     
 body {
-    background-color: rgb(240, 230, 218);
+    background-color: rgb(209, 223, 229);
 }
 /* the main container */
 
@@ -16,7 +16,7 @@ body {
  height:648px;
   margin: 3em auto;
   overflow: hidden;
-  box-shadow: 2px 5px 15px 0px #17161694;
+  box-shadow: 3px 3px 15px 6px #17161694;
   background-color:rgb(255, 255, 255);
   border-radius: 2px;
 }
@@ -111,4 +111,29 @@ svg{
   fill:rgb(117, 168, 189);
   animation: bounce; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: rgb(209, 223, 229);
+  }
+  .card{
+  width:432px;
+  height:648px;
+  /* width:400px; */
+/* height:750px; */
+}
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    background-color: rgb(209, 223, 229);
+  }
+  .card{
+  width:432px;
+  height:648px;
+  /* width:400px; */
+  /* height:750px; */
+
+}
 }
