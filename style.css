@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box;
+    border:dashed; */
+    }
+
+    
+body {
+    background-color: rgb(240, 230, 218);
+}
+/* the main container */
+
+.card{
+ width:432px;
+ height:648px;
+  margin: 3em auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color:rgb(255, 255, 255);
+  border-radius: 2px;
+}
+
+.front-card{
+
+  background-image: url('assets/asset-frontcard-background.svg');
+  background-position: center;
+  background-size:cover;
+}
+ 
+.back-card {
+  background-image: url(assets/aeest-backcard-background.svg);
+  background-position: center;
+  background-size:cover;
+}
+
+.front-text{
+  margin-top: 77%;
+  margin-left:40%;
+  line-height: 2.5em;
+  position: relative;
+}
+
+h1{
+  /* to left align text */
+  font-size: 3.2em;
+  font-family:  'Montserrat', sans-serif;
+  color:rgb(40, 55, 64)
+}
+
+h2{
+  margin-left: 3.4em;
+  font-size: 2em;
+  font-family:  'Montserrat', sans-serif;
+  color:rgb(40, 55, 64)
+}
+
+.back-text {
+  margin-top: 40%;
+  margin-right:10%;
+  text-align: right;
+}
+
+h3{
+  font-size: 1.7em;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5em;
+  color:rgb(40, 55, 64)
+}
+
+h4{
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5em;
+  color:rgb(40, 55, 64)
+}
+
+.grey-textbox{
+  margin-top: -25%;
+  margin-left: 35%;
+  width: 650%;
+}
+
+
+
+.logo{
+  margin-top: -10%;
+  margin-left: 1%;
+  width: 500%;
+}
+
+svg{
+  fill:rgb(26, 26, 78);
+  width: 10%;
+  height: auto;
+  margin-left: 100px;
+  margin: 5px;
+  /* width:100%; */
+  /* height:auto; */
+  /* margin: 0 auto */
+}
+
+svg{
+  fill:yellowgreen;
+  /* width:100%; */
+  /* height:auto; */
+  /* margin: 0 auto */
+}
+
+.logo:hover{
+  fill:rgb(117, 168, 189);
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
